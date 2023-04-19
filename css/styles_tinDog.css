@@ -1,0 +1,163 @@
+body{
+    font-family: "Montserrat";
+}
+h1 {  
+    font-family: "Montserrat"; 
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    margin-top: 15%;
+    /* font-weight: 900; */
+}
+h2{
+    font:bolder;
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font:bolder;
+    font-family: "Montserrat-Bold";
+    font:italic;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    font-size: 300%;
+    padding-bottom: 5%;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+#title{
+    background-color: #ff4c58;
+    color: white;
+}
+.title-img{
+    width: 23%;
+    right: 20%;
+    position: absolute;
+}
+@media (max-width:900px) {
+    #title{
+        text-align: center;
+        /* font-size: 50px;
+        color: aqua; */
+    }
+    .title-img{
+        position: static;
+        width: 60%;
+        /* transform: rotate(0deg); */
+    }
+    .rotate45 {
+        transform: rotate(90deg);
+    }
+
+}
+
+
+#testimonials{
+    background-color: #ff4c58;
+    color: white;
+    
+    text-align: center;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+
+#press{
+    background-color: #ff4c58;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4c58;
+    color: white;
+    padding: 2% 2%;
+    text-align: center;
+}
+.footer{
+    margin: 5%;
+    text-align: center;
+
+}
+.foot-icon{
+    position: relative;
+    top: 65px;
+    color: black;
+    text-align: center;
+}
+.social-icon{
+    margin: 1% .6%;
+}
+.text-deco{
+    text-decoration: none;
+    color: black;
+}
+
+.card-text{
+    text-align: center;
+}
+
+
+.price{
+    text-align: center;
+}
+
+.rotate45 {
+    transform: rotate(20deg);
+}
+
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    
+}
+.feature{
+    padding: 7% 15%;
+    text-align: center;
+}
+.feature-box{
+    padding: 5%;
+}
+.navbar{
+    padding-bottom:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-weight:bold ;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
